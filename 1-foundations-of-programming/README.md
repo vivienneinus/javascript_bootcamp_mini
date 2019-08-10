@@ -15,7 +15,7 @@ Before getting started, make sure that you have a JavaScript console open (like 
    3 * 5
    5 / 4 - 13
    5000 * 234
-   1073 / 57 + 200
+   1073 / 57 + 200 //return a double/float
    ```
 
 2. Why are the values produced by the following two expressions different? What
