@@ -88,3 +88,8 @@ Before getting started, make sure that you have a JavaScript console open (like 
    Where are all the quotes?
    'hmm something is not right"
    'Do other ' * 'operators work with string concatenation?
+   ```
+5. Some useful short cuts:
+   ```
+   // 'cmd' + '/' short cut for comment
+   remember to add ';' at the end of a statement
