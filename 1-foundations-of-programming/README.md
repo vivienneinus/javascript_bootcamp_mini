@@ -90,9 +90,9 @@ Before getting started, make sure that you have a JavaScript console open (like 
    'Do other ' * 'operators work with string concatenation?
    'It'.concat(' is',' a',' great',' day.');
    line = 'It'.concat(' is',' a') + ' great' + ' Saturday.'
-   substr = line.substring(8);
+   substr = line.substring(8); // return great Saturday.
    // index starts at 0
-   line.concat('*');
+   line.concat('*'); // return It is a great Saturday.*
    ```
 5. Some useful short cuts:
    ```
