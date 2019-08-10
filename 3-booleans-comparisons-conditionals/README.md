@@ -20,7 +20,11 @@ Before getting started, make sure that you have a JavaScript console open (like 
     + Write an expression using two numbers and `!==` that will evaluate to `false`
     + Write an expression using two strings and `===` that will evaluate to `true`
     + Write an expression using two strings and `!==` that will evaluate to `false`
-
+   ```
+   console.log('1' == 1); // true -- convert string '1' to number
+   console.log('1' === 1); // false -- recommend using ===
+   ```
+   
 3. Fill in the `???` with the following operators or values to make the statements
    output the expected Boolean value.
 
