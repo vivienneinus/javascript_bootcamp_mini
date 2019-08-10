@@ -73,9 +73,9 @@ Before getting started, make sure that you have a JavaScript console open (like 
    // Your first and last names
    "John" + " " + "Doe"
    1 + '2';
-   //return a string
+   //return a string '12'
    'ab' + 'c';
-   //similar to Python
+   //similar to Python 'abc'
    ```
 
    + Your first and last names (as shown above)
