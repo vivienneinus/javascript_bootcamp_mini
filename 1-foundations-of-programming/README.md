@@ -55,7 +55,8 @@ Before getting started, make sure that you have a JavaScript console open (like 
    ```
 
    What do the results tell you about the first operand to the modulus operator?
-
+   ```
+7. Math order of operations follows PEMDAS
 #### Strings
 
 1. Write a string that represents your full name.
@@ -80,4 +81,3 @@ Before getting started, make sure that you have a JavaScript console open (like 
    Where are all the quotes?
    'hmm something is not right"
    'Do other ' * 'operators work with string concatenation?
-   ```
