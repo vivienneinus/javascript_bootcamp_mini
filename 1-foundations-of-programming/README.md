@@ -72,6 +72,10 @@ Before getting started, make sure that you have a JavaScript console open (like 
    ```js
    // Your first and last names
    "John" + " " + "Doe"
+   1 + '2';
+   //return a string
+   'ab' + 'c';
+   //similar to Python
    ```
 
    + Your first and last names (as shown above)
