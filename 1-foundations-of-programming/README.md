@@ -62,6 +62,9 @@ Before getting started, make sure that you have a JavaScript console open (like 
 1. Write a string that represents your full name.
 
 2. Write a string that represents your favorite food.
+   ```
+   Use double quote for "Vivienne's favorite"
+   ```
 
 3. Use the `+` operator to combine (known as *concatenation*) two or more
    strings, *e.g.*:
