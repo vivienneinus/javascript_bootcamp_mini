@@ -79,7 +79,33 @@ Before getting started, make sure that you have a JavaScript console open (like 
 
    **HINT:** You'll need a variable for this. *Where* should the variable be
    declared?
+   
+   ```
+   var x = 10;
+   var x = 12;
+   x; // 12
+   const y = 11;
+   x = 13; // 13
+   //y = 14;// error message
+   var a = 'hello';
+   var b = a;
+   a = 'goodbye';
+   b; // 'Hello' -- not a reference but python is 
+   (function sayHi(word) {
+     console.log(word);
+   } ("Hello"))
 
+   sayHey('Hello');
+
+   function sayHey(word) {
+     console.log(word);
+   } // works
+
+   console.log(addTwoNum(1, 3));// error
+   var addTwoNum = (a, b) => a + b;
+   console.log(addTwoNum(1, 3));// 4
+   ```
+   
 ### More Practice
 
 **All of the following exercises involve augmenting the `guessMyNumber` function.**
