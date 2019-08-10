@@ -12,9 +12,9 @@ Before getting started, make sure that you have a JavaScript console open (like 
    ```js
    function square(num){
       return num * num;
-   }
+   } // num is the parameter
    
-   square(10) + 2;
+   square(10) + 2; // 10 is the argument
    square(100) + square(77);
    square(8 / 2)
    square(2 + 17);
