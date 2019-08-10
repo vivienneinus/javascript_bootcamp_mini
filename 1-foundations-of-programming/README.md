@@ -88,6 +88,11 @@ Before getting started, make sure that you have a JavaScript console open (like 
    Where are all the quotes?
    'hmm something is not right"
    'Do other ' * 'operators work with string concatenation?
+   'It'.concat(' is',' a',' great',' day.');
+   line = 'It'.concat(' is',' a') + ' great' + ' Saturday.'
+   substr = line.substring(8);
+   // index starts at 0
+   line.concat('*');
    ```
 5. Some useful short cuts:
    ```
