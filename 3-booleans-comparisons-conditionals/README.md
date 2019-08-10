@@ -79,6 +79,17 @@ Before getting started, make sure that you have a JavaScript console open (like 
 
 4. Write functions `larger` and `smaller` that each accept two strings as
    arguments, and return the *larger* and *smaller* strings, respectively.
+   
+   ```
+   function abs(x) {
+      if (x >= 0) {
+        return x;
+      }
+      return -x;
+    }
+    abs(5); // return 5
+    abs('-8'); // return 8 -- auto convert string to number
+    typeof('-8'); // return 'string'
 
 ### More Practice
 
